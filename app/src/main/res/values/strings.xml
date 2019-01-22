@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">YoutuberX</string>
+    <string name="score">Xal : </string>
+    <string name="passed">Keçildi : </string>
+    <string name="tryagain">Yenidən Cəhd Elə</string>
+    <string name="test">0</string>
+    <string name="elli"> - 50</string>
+    <string name="el"> + 75 </string>
+    <string name="AnswerA">AnswerA</string>
+    <string name="AnswerB">AnswerB</string>
+    <string name="AnswerC">AnswerC</string>
+    <string name="AnswerD">AnswerD</string>
+    <string name="category">Kateqoriya Adı</string>
+    <string name="score1">Xal</string>
+    <string name="signup">Qeydiyyat</string>
+    <string name="login">Giriş</string>
+    <string name="username">İstifadəçi adı</string>
+    <string name="password">Şifrə</string>
+    <string name="email">Email</string>
+    <string name="play">Başla </string>
+    <string name="categories">Kateqoriyalar </string>
+    <string name="ranking">Sıralama </string>
+    <string name="top">TOP</string>
+    <string name="kec">Cavabı tap</string>
+    <string name="izle">Video izlə</string>
+    <string name="help">Keç  -50 </string>
+    <string name="aydin">Oyun daxilindəki +75 bonusu ilk olaraq deaktiv görsənir video yükləndikdən sonra aktiv vəziyyətinə qayıdır.Bu təxminən 15 - 20 saniyə vaxt alır.Bu bonuslar vasitəsə ilə öz xalınızı artırıb sıralamada ön sıralara çıxa bilərsiniz.</string>
+    <string name="atri">Aşağıdakı seçimlərdən birini seçin</string>
+    <string name="yes">Bəli</string>
+    <string name="no">Xeyr</string>
+    <string name="worns">Nəsə düz getmir ! </string>
+    <string name="support">Öz sevimli youtuberinizi önə çıxarmağ üçün onu dəstəkləyin ! </string>
+    <string name="wrong">Yalnış şifrə ! </string>
+    <string name="alert">Xahiş edirik məlumatları tam doldurun !</string>
+    <string name="noexists">İstifadəçi mövcud deyil !</string>
+    <string name="cancel">Ləğv et</string>
+    <string name="save">Yadda saxla</string>
+    <string name="ok">OK</string>
+    <string name="remmember">Məni xatırla</string>
+    <string name="success">Qeydiyyat uğurla başa çatdı ! </string>
+    <string name="exists">İstifadəçi artıq mövcuddur ! </string>
+    <string name="noconnect">İnternet bağlantısı  </string>
+    <string name="message">Xahiş edirik internet bağlantınızı yoxlayın və daha sonra yenidən cəhd edin !</string>
+</resources>

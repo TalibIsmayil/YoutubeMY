@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/masa"
+    android:background="@drawable/third_layer"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity">
+
+    <ImageView
+        android:id="@+id/logo1"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_width="300dp"
+        android:layout_height="200dp" />
+
+    <android.support.v7.widget.CardView
+        android:layout_centerInParent="true"
+        app:cardElevation="4dp"
+        android:id="@+id/davay"
+        android:layout_below="@+id/logo1"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/playGame"
+            android:layout_margin="10dp"
+            android:text="@string/play"
+            app:fButtonColor="@color/fbutton_color_pumpkin"
+            app:shadowColor="@color/fbutton_color_pomegranate"
+            app:shadowEnabled="true"
+            app:shadowHeight="6dp"
+            app:cornerRadius="10dp"
+            android:textColor="@color/milk"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:layout_margin="8dp"
+        android:padding="2dp"
+        android:id="@+id/aydin"
+        android:text="@string/aydin"
+        android:textColor="@color/milk"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_below="@+id/davay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-3159482392412970/9963179188">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

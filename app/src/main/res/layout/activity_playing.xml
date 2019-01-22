@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/comeon"
+    android:background="@drawable/my_bg_anim"
+    android:layout_height="match_parent"
+    tools:context=".PlayingActivity">
+
+    <RelativeLayout
+        android:id="@+id/reasa"
+        android:layout_margin="6dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/dialog"
+            android:text="@string/elli"
+            android:layout_marginRight="10dp"
+            android:textSize="17sp"
+            android:drawableLeft="@drawable/ic_skip_nesxt_black_24dp"
+            android:drawableRight="@drawable/mna_attach_money_black_24dp"
+            app:fButtonColor="@color/colorPrimaryDark"
+            android:shadowColor="@color/colorPrimary"
+            android:textColor="@color/milk"
+            android:layout_width="85dp"
+            android:layout_height="37dp" />
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/ban"
+            android:layout_toRightOf="@+id/dialog"
+            android:text="@string/el"
+            android:textSize="17sp"
+            android:drawableRight="@drawable/mna_attach_money_black_24dp"
+            app:fButtonColor="@color/colorPrimaryDark"
+            android:shadowColor="@color/colorPrimary"
+            android:textColor="@color/milk"
+            android:layout_width="85dp"
+            android:layout_height="37dp" />
+
+        <TextView
+            android:layout_toRightOf="@+id/dialog"
+            android:id="@+id/txtTotalQuestion"
+            android:layout_weight="0.5"
+            android:textColor="@color/milk"
+            android:gravity="center_horizontal"
+            android:textSize="25sp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/pul"
+            android:src="@drawable/money"
+            android:layout_toLeftOf="@+id/txtScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginRight="35dp"
+            android:id="@+id/txtScore"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/milk"
+            android:gravity="center_horizontal"
+            android:text="@string/test"
+            android:textSize="22sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_above="@+id/basa"
+        android:layout_below="@+id/reasa"
+        android:id="@+id/question_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    
+    <VideoView
+        android:id="@+id/question_video"
+        android:layout_above="@+id/basa"
+        android:layout_below="@+id/reasa"
+        android:visibility="visible"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ProgressBar
+        android:id="@+id/buffer"
+        android:layout_above="@+id/basa"
+        android:layout_below="@+id/reasa"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:indeterminate="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+
+        android:id="@+id/basa"
+        android:layout_margin="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:id="@+id/group"
+            android:paddingTop="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <SeekBar
+                android:id="@+id/progressBar"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:max="15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/btnAnswerA"
+                android:text="@string/AnswerA"
+                android:textColor="@color/milk"
+                android:textStyle="bold"
+                android:layout_margin="8dp"
+                app:fButtonColor="@color/fbutton_color_alizarin"
+                android:shadowColor="@color/fbutton_color_pumpkin"
+                app:shadowEnabled="true"
+                app:shadowHeight="4dp"
+                app:cornerRadius="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <info.hoang8f.widget.FButton
+                android:id="@+id/btnAnswerB"
+                android:text="@string/AnswerB"
+                android:textColor="@color/milk"
+                android:textStyle="bold"
+                android:layout_margin="8dp"
+                app:fButtonColor="@color/fbutton_color_alizarin"
+                android:shadowColor="@color/fbutton_color_pumpkin"
+                app:shadowEnabled="true"
+                app:shadowHeight="4dp"
+                app:cornerRadius="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <info.hoang8f.widget.FButton
+                android:id="@+id/btnAnswerC"
+                android:text="@string/AnswerC"
+                android:textColor="@color/milk"
+                android:textStyle="bold"
+                app:fButtonColor="@color/fbutton_color_alizarin"
+                android:shadowColor="@color/fbutton_color_pumpkin"
+                app:shadowEnabled="true"
+                app:shadowHeight="4dp"
+                app:cornerRadius="10dp"
+                android:layout_margin="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <info.hoang8f.widget.FButton
+                android:id="@+id/btnAnswerD"
+                android:text="@string/AnswerD"
+                android:textColor="@color/milk"
+                android:textStyle="bold"
+                app:fButtonColor="@color/fbutton_color_alizarin"
+                android:shadowColor="@color/fbutton_color_pumpkin"
+                app:shadowEnabled="true"
+                app:shadowHeight="4dp"
+                app:cornerRadius="10dp"
+                android:layout_margin="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

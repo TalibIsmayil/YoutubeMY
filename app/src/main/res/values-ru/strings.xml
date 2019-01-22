@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">YoutuberX</string>
+    <string name="score">Счет : </string>
+    <string name="passed">Прошло : </string>
+    <string name="tryagain">Еще раз</string>
+    <string name="test">0</string>
+    <string name="elli"> - 50</string>
+    <string name="el"> + 75 </string>
+    <string name="AnswerA">AnswerA</string>
+    <string name="AnswerB">AnswerB</string>
+    <string name="AnswerC">AnswerC</string>
+    <string name="AnswerD">AnswerD</string>
+    <string name="category">Название категории</string>
+    <string name="score1">Счет</string>
+    <string name="signup">Регистр</string>
+    <string name="login">Авторизоваться</string>
+    <string name="username">Имя пользователя</string>
+    <string name="password">Пароль</string>
+    <string name="email">Эл. адрес</string>
+    <string name="play">Играть </string>
+    <string name="categories">Категории </string>
+    <string name="ranking">Ранжирование </string>
+    <string name="top">ТОП</string>
+    <string name="kec">Найти ответ  -50 </string>
+    <string name="izle">Смотреть видео</string>
+    <string name="help">Проходить</string>
+    <string name="aydin">Бонус +75 внутри игры сначала деактивируется, как только видео загружается в текущее состояние. Это занимает от 15 до 20 секунд. Эти бонусы могут использоваться для продвижения вашего ранга и ранжирования в рейтинге.</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="worns">Что-то пошло не так !</string>
+    <string name="support">Поддержите его, чтобы выдвинуть свой любимый youtuber! </string>
+    <string name="wrong">Неправильный пароль!</string>
+    <string name="alert">Пожалуйста, заполните подробные данные!</string>
+    <string name="noexists">Пользователь не существует!</string>
+    <string name="cancel">Отмена</string>
+    <string name="save">Сохранить</string>
+    <string name="ok">ОК</string>
+    <string name="remmember">Запомни меня</string>
+    <string name="success">Регистрация завершена успешно!</string>
+    <string name="exists">Пользователь уже существует!</string>
+    <string name="noconnect">интернет-соединение  </string>
+    <string name="message">Проверьте подключение к Интернету и повторите попытку позже!</string>
+</resources>

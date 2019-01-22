@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/lay"
+    android:background="@drawable/vav"
+    android:layout_height="match_parent"
+    tools:context=".SignActivity">
+
+    <RelativeLayout
+        android:id="@+id/wrap_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:id="@+id/info_login"
+            app:cardBackgroundColor="@color/milk"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:padding="16dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.AppCompatEditText
+                        android:id="@+id/edtUsername"
+                        android:inputType="text"
+                        android:layout_margin="10dp"
+                        android:hint="@string/username"
+                        android:textColorHint="@color/colorAccent"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="20sp"
+                        android:drawableLeft="@drawable/ic_person_black_24dp"
+                        android:drawablePadding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                <!--<com.rengwuxian.materialedittext.MaterialEditText-->
+                    <!--android:id="@+id/edtUsername"-->
+                    <!--android:inputType="text"-->
+                    <!--android:hint="@string/username"-->
+                    <!--android:textColorHint="@color/colorAccent"-->
+                    <!--android:textColor="@color/colorAccent"-->
+                    <!--android:textSize="22sp"-->
+                    <!--android:drawableLeft="@drawable/ic_person_black_24dp"-->
+                    <!--android:drawablePadding="10dp"-->
+                    <!--app:met_baseColor="@color/colorAccent"-->
+                    <!--app:met_floatingLabel="highlight"-->
+                    <!--app:met_primaryColor="@color/colorAccent"-->
+                    <!--app:met_singleLineEllipsis="true"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content" />-->
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:passwordToggleEnabled="true">
+
+                    <android.support.v7.widget.AppCompatEditText
+                        android:id="@+id/edtPassword"
+                        android:inputType="textPassword"
+                        android:hint="@string/password"
+                        android:layout_margin="10dp"
+                        android:textColorHint="@color/colorAccent"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="20sp"
+                        android:drawableStart="@drawable/ic_lock_black_24dp"
+                        android:drawablePadding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <!--<com.rengwuxian.materialedittext.MaterialEditText-->
+                    <!--android:id="@+id/edtPassword"-->
+                    <!--android:inputType="textPassword"-->
+                    <!--android:hint="@string/password"-->
+                    <!--android:drawablePadding="10dp"-->
+                    <!--android:drawableLeft="@drawable/ic_lock_black_24dp"-->
+                    <!--android:textColorHint="@color/colorAccent"-->
+                    <!--android:textColor="@color/colorAccent"-->
+                    <!--android:textSize="22sp"-->
+                    <!--app:met_baseColor="@color/colorAccent"-->
+                    <!--app:met_floatingLabel="highlight"-->
+                    <!--app:met_primaryColor="@color/colorAccent"-->
+                    <!--app:met_singleLineEllipsis="true"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content" />-->
+
+                <CheckBox
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/checkbox"
+                    android:text="@string/remmember"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_margin="8dp"
+            android:layout_below="@+id/info_login"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/btnSignUp"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/milk"
+                android:text="@string/signup"
+                app:fButtonColor="@color/colorAccent"
+                app:shadowEnabled="true"
+                app:shadowHeight="6dp"
+                app:cornerRadius="10dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/btnSignIn"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                app:fButtonColor="@color/colorAccent"
+                app:shadowEnabled="true"
+                app:shadowHeight="6dp"
+                app:cornerRadius="10dp"
+                android:text="@string/login"
+                android:textColor="@color/milk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-3159482392412970/3857436847">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

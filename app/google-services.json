@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "423300166449",
+    "firebase_url": "https://rx-25cf5.firebaseio.com",
+    "project_id": "rx-25cf5",
+    "storage_bucket": "rx-25cf5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423300166449:android:e252f370a03286e8",
+        "android_client_info": {
+          "package_name": "com.talib.youtuberx.youtubemy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423300166449-3iuof5ihj47qqs2f5vdcm1uo3oil0r40.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.talib.youtuberx.youtubemy",
+            "certificate_hash": "24dd2a09d7adf5bd70bbfd654fd3fdb7290f636b"
+          }
+        },
+        {
+          "client_id": "423300166449-6qrq186bvgrb7osnpfk7jmuv6v6svd8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaYax72m9Go6L5_XqshSG0XPGoFnaLUjk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423300166449-6qrq186bvgrb7osnpfk7jmuv6v6svd8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-3159482392412970~8839150844"
+    }
+  ],
+  "configuration_version": "1"
+}

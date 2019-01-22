@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="215dp">
+
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:id="@+id/category_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/btn_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:shadowColor="@color/fbutton_color_midnight_blue"
+        android:text="@string/play"
+        android:textColor="@color/milk"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
+        app:fButtonColor="@color/fbutton_color_wet_asphalt"
+        app:layout_constraintBottom_toBottomOf="@+id/gradient2"
+        app:layout_constraintEnd_toEndOf="@+id/gradient2"
+        app:layout_constraintHorizontal_bias="0.912"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/category_name"
+        app:layout_constraintTop_toTopOf="@+id/gradient2"
+        app:layout_constraintVertical_bias="0.687"
+        app:shadowEnabled="true"
+        app:shadowHeight="6dp" />
+
+    <ImageView
+        android:id="@+id/gradient2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="132dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/black_gradient"
+        tools:layout_editor_absoluteX="50dp" />
+
+    <TextView
+        android:id="@+id/category_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="16dp"
+        android:padding="10dp"
+        android:text="@string/category"
+        android:textColor="@color/milk"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+</android.support.constraint.ConstraintLayout>
